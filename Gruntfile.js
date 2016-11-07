@@ -15,7 +15,6 @@ module.exports = function (grunt) {
 
     sass: {
         options: {
-          outputStyle: 'nested',
           sourceMap: true,
           precision: 5,
           includePaths: [
