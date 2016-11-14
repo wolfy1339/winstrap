@@ -1060,7 +1060,7 @@ $glyphs: (
 // Generate glyph-* classes
 @each $glyph, $values in $glyphs {
     .glyph-#{$glyph}::before {
-        content: "#{map-get($values, unicode)}";
+        content: #{$values};
     }
 }
 
