@@ -1,15 +1,10 @@
 ﻿// Cross-browser transition
 @mixin transition($transitions...) {
-    -webkit-transition: $transitions;
     transition: $transitions;
 }
 
 // Cross-browser keyframes animation
-@mixin keyframes($animation-name) {
-    @-webkit-keyframes #{$animation-name} {
-        @content;
-    }
-  
+@mixin keyframes($animation-name) { 
     @keyframes #{$animation-name} {
         @content;
     }
@@ -17,16 +12,13 @@
 
 // Cross-browser animation
 @mixin animation($animation-values...) {
-    -webkit-animation: $animation-values;
     animation: $animation-values;
 }
 
 @mixin animation-delay($animation-values...) {
-    -webkit-animation-delay: $animation-values;
     animation-delay: $animation-values;
 }
 
 @mixin animation-timing-function($animation-values...) {
-    -webkit-animation-timing-function: $animation-values;
     animation-timing-function: $animation-values;
 }

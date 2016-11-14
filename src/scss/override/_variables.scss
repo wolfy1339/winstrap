@@ -91,15 +91,15 @@ $padding-large-horizontal:  16px !default;
 $padding-small-vertical:    2px !default;
 $padding-small-horizontal:  7px !default;
 
-$padding-xs-vertical:       0px !default;
+$padding-xs-vertical:       0   !default;
 $padding-xs-horizontal:     5px !default;
 
 $line-height-large:         1.2 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5625 !default;
 
-$border-radius-base:        0px !default;
-$border-radius-large:       0px !default;
-$border-radius-small:       0px !default;
+$border-radius-base:        0 !default;
+$border-radius-large:       0 !default;
+$border-radius-small:       0 !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    $color-white !default;
@@ -278,32 +278,32 @@ $zindex-modal:             1050 !default;
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // Extra small screen / phone
-//** Deprecated `$screen-xs` as of v3.0.1
+//** Deprecated `$screen-xs` as of v3..1
 $screen-xs:                  320px !default;
 //** Deprecated `$screen-xs-min` as of v3.2.0
 $screen-xs-min:              $screen-xs !default;
-//** Deprecated `$screen-phone` as of v3.0.1
+//** Deprecated `$screen-phone` as of v3..1
 $screen-phone:               $screen-xs-min !default;
 
 // Small screen / tablet
-//** Deprecated `$screen-sm` as of v3.0.1
+//** Deprecated `$screen-sm` as of v3..1
 $screen-sm:                  540px !default;
 $screen-sm-min:              $screen-sm !default;
-//** Deprecated `$screen-tablet` as of v3.0.1
+//** Deprecated `$screen-tablet` as of v3..1
 $screen-tablet:              $screen-sm-min !default;
 
 // Medium screen / desktop
-//** Deprecated `$screen-md` as of v3.0.1
+//** Deprecated `$screen-md` as of v3..1
 $screen-md:                  768px !default;
 $screen-md-min:              $screen-md !default;
-//** Deprecated `$screen-desktop` as of v3.0.1
+//** Deprecated `$screen-desktop` as of v3..1
 $screen-desktop:             $screen-md-min !default;
 
 // Large screen / wide desktop
-//** Deprecated `$screen-lg` as of v3.0.1
+//** Deprecated `$screen-lg` as of v3..1
 $screen-lg:                  1084px !default;
 $screen-lg-min:              $screen-lg !default;
-//** Deprecated `$screen-lg-desktop` as of v3.0.1
+//** Deprecated `$screen-lg-desktop` as of v3..1
 $screen-lg-desktop:          $screen-lg-min !default;
 
 // Extra large screen / wide desktop
@@ -523,7 +523,7 @@ $tooltip-max-width:           296px !default;
 $tooltip-color:               $color-type-primary !default;
 //** Tooltip background color
 $tooltip-bg:                  $color-bg-light-vivid-mid !default;
-$tooltip-opacity:             1.0 !default;
+$tooltip-opacity:             1 !default;
 
 //** Tooltip arrow width
 $tooltip-arrow-width:         5px !default;
@@ -555,7 +555,7 @@ $popover-arrow-color:                 $popover-bg !default;
 //** Popover outer arrow width
 $popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;
 //** Popover outer arrow color
-$popover-arrow-outer-color:           fade_in($popover-border-color, 0.05) !default;
+$popover-arrow-outer-color:           fade_in($popover-border-color, .05) !default;
 //** Popover outer arrow fallback color
 $popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%) !default;
 
@@ -605,7 +605,7 @@ $modal-content-fallback-border-color:          $brand-primary !default;
 //** Modal backdrop background color
 $modal-backdrop-bg:           $color-black !default;
 //** Modal backdrop opacity
-$modal-backdrop-opacity:      0.6 !default;
+$modal-backdrop-opacity:      .6 !default;
 //** Modal header border color
 $modal-header-border-color:   transparent !default;
 //** Modal footer border color

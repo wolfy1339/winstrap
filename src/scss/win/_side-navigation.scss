@@ -144,8 +144,8 @@ a.navigation-btn {
                 margin: spacing(n);
                 padding-left: spacing(xs);
                 li a {
-                    padding-top: spacing(xxxs)/4;
-                    padding-bottom: spacing(xxxs)/4;
+                    padding-top: spacing(xxxs) / 4;
+                    padding-bottom: spacing(xxxs) / 4;
                     @include type(t8);
                 }
             }

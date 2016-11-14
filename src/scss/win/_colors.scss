@@ -12,95 +12,95 @@
 //
 
 // Base colors
-$color-white:                       #FFFFFF;
-$color-black:                       #000000;
-$color-accent:                      #0078D7 !default;
-$color-alert:                       #D02E00 !default;
+$color-white:                       #fff;
+$color-black:                       #000;
+$color-accent:                      #0078d7 !default;
+$color-alert:                       #d02e00 !default;
 
 
 // Primary brand colors
-$color-blue:                        #0078D7;
-$color-purple:                      #5C2D91;
-$color-magenta:                     #B4009E;
-$color-red:                         #E81123;
-$color-orange:                      #D83B01;
-$color-yellow:                      #FFB900;
-$color-green:                       #107C10;
+$color-blue:                        #0078d7;
+$color-purple:                      #5c2d91;
+$color-magenta:                     #b4009e;
+$color-red:                         #e81123;
+$color-orange:                      #d83b01;
+$color-yellow:                      #ffb900;
+$color-green:                       #107c10;
 $color-teal:                        #008272;
 
 
 // Brand content accent colors
-$color-lightblue:                   #00BCF2;
-$color-midblue:                     #00188F;
+$color-lightblue:                   #00bcf2;
+$color-midblue:                     #00188f;
 $color-darkblue:                    #002050;
-$color-lightpurple:                 #B4A0FF;
-$color-darkpurple:                  #32145A;
-$color-lightmagenta:                #E3008C;
-$color-darkmagenta:                 #5C005C;
-$color-darkred:                     #A80000;
-$color-lightorange:                 #FF8C00;
-$color-lightyellow:                 #FFF100;
-$color-lightgreen:                  #BAD80A;
-$color-darkgreen:                   #004B1C;
-$color-lightteal:                   #00B294;
-$color-darkteal:                    #004B50;
+$color-lightpurple:                 #b4a0ff;
+$color-darkpurple:                  #32145a;
+$color-lightmagenta:                #e3008c;
+$color-darkmagenta:                 #5c005c;
+$color-darkred:                     #a80000;
+$color-lightorange:                 #ff8c00;
+$color-lightyellow:                 #fff100;
+$color-lightgreen:                  #bad80a;
+$color-darkgreen:                   #004b1c;
+$color-lightteal:                   #00b294;
+$color-darkteal:                    #004b50;
 
 
 // Background colors
 $color-bg-light-vivid-high:         $color-white;
-$color-bg-light-vivid-mid:          #F2F2F2;
-$color-bg-light-vivid-low:          #E5E5E5;
-$color-bg-light-neutral-high:       #D9D9D9;
-$color-bg-light-neutral-mid:        #CCCCCC;
+$color-bg-light-vivid-mid:          #f2f2f2;
+$color-bg-light-vivid-low:          #e5e5e5;
+$color-bg-light-neutral-high:       #d9d9d9;
+$color-bg-light-neutral-mid:        #ccc;
 
 $color-bg-dark-vivid-high:          $color-black;
 $color-bg-dark-vivid-mid:           #191919;
 $color-bg-dark-vivid-low:           #262626;
-$color-bg-dark-neutral-high:        #333333;
+$color-bg-dark-neutral-high:        #333;
 $color-bg-dark-neutral-mid:         #404040;
 
 
 // Type colors
 $color-type-primary:                $color-black;
-$color-type-secondary:              rgba($color-black, 0.6);
-$color-type-disabled:               rgba($color-black, 0.2);
+$color-type-secondary:              rgba($color-black, .6);
+$color-type-disabled:               rgba($color-black, .2);
 $color-type-accent:                 $color-accent;
 $color-type-alert:                  $color-alert;
 
 $color-type-primary-alt:            $color-white;
-$color-type-secondary-alt:          rgba($color-white, 0.6);
-$color-type-disabled-alt:           rgba($color-white, 0.2);
+$color-type-secondary-alt:          rgba($color-white, .6);
+$color-type-disabled-alt:           rgba($color-white, .2);
 $color-type-accent-alt:             $color-accent;
 $color-type-alert-alt:              $color-alert;
 
 
 // Fill/line colors
-$color-dim-low:                     rgba($color-black, 0.05);
-$color-dim-mid:                     rgba($color-black, 0.1);
-$color-neutral-low:                 rgba($color-black, 0.2);
-$color-neutral-mid:                 rgba($color-black, 0.3);
-$color-neutral-high:                rgba($color-black, 0.4);
-$color-vivid-low:                   rgba($color-black, 0.6);
-$color-vivid-mid:                   rgba($color-black, 0.8);
+$color-dim-low:                     rgba($color-black, .05);
+$color-dim-mid:                     rgba($color-black, .1);
+$color-neutral-low:                 rgba($color-black, .2);
+$color-neutral-mid:                 rgba($color-black, .3);
+$color-neutral-high:                rgba($color-black, .4);
+$color-vivid-low:                   rgba($color-black, .6);
+$color-vivid-mid:                   rgba($color-black, .8);
 $color-vivid-high:                  $color-black;
 
-$color-dim-mid-alt:                 rgba($color-white, 0.1);
-$color-dim-high-alt:                rgba($color-white, 0.15);
-$color-neutral-low-alt:             rgba($color-white, 0.2);
-$color-neutral-mid-alt:             rgba($color-white, 0.3);
-$color-neutral-high-alt:            rgba($color-white, 0.4);
-$color-vivid-low-alt:               rgba($color-white, 0.6);
-$color-vivid-mid-alt:               rgba($color-white, 0.8);
+$color-dim-mid-alt:                 rgba($color-white, .1);
+$color-dim-high-alt:                rgba($color-white, .15);
+$color-neutral-low-alt:             rgba($color-white, .2);
+$color-neutral-mid-alt:             rgba($color-white, .3);
+$color-neutral-high-alt:            rgba($color-white, .4);
+$color-vivid-low-alt:               rgba($color-white, .6);
+$color-vivid-mid-alt:               rgba($color-white, .8);
 $color-vivid-high-alt:              $color-white;
 
-$color-accent-dim-low:              rgba($color-accent, 0.05);
-$color-accent-dim-mid:              rgba($color-accent, 0.1);
-$color-accent-dim-high:             rgba($color-accent, 0.15);
-$color-accent-neutral-low:          rgba($color-accent, 0.2);
-$color-accent-neutral-mid:          rgba($color-accent, 0.3);
-$color-accent-neutral-high:         rgba($color-accent, 0.4);
-$color-accent-vivid-low:            rgba($color-accent, 0.6);
-$color-accent-vivid-mid:            rgba($color-accent, 0.8);
+$color-accent-dim-low:              rgba($color-accent, .05);
+$color-accent-dim-mid:              rgba($color-accent, .1);
+$color-accent-dim-high:             rgba($color-accent, .15);
+$color-accent-neutral-low:          rgba($color-accent, .2);
+$color-accent-neutral-mid:          rgba($color-accent, .3);
+$color-accent-neutral-high:         rgba($color-accent, .4);
+$color-accent-vivid-low:            rgba($color-accent, .6);
+$color-accent-vivid-mid:            rgba($color-accent, .8);
 $color-accent-vivid-high:           $color-accent;
 
 

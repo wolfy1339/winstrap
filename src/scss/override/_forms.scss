@@ -1,8 +1,7 @@
 //
 // Text controls
 //
-input.form-control,
-textarea.form-control {
+.form-control {
     -ms-user-select: element;
     border-style: solid;
     border-width: 1px;
@@ -19,13 +18,13 @@ textarea.form-control {
     outline: 0;
 }
 
-input.form-control::-ms-value {
+.form-control::-ms-value {
     margin: 0;
     padding: 0;
 }
 
-input.form-control::-ms-clear,
-input.form-control::-ms-reveal {
+.form-control::-ms-clear,
+.form-control::-ms-reveal {
     margin-right: -8px;
     width: 36px;
     height: 36px;
@@ -43,7 +42,7 @@ textarea.form-control {
 .form-group {
     .checkbox:first-of-type,
     .radio:first-of-type {
-        margin-top: spacing(xs, -2)
+        margin-top: spacing(xs, -2);
     }
 
     .checkbox:last-of-type,
@@ -74,22 +73,22 @@ textarea.form-control {
 .radio {
     margin: spacing(xs, -2) 0;
 
-    & input[type=checkbox],
-    & input[type=radio] {
+    input[type=checkbox],
+    input[type=radio] {
         width: 20px;
         height: 20px;
         margin-left: -28px;
         margin-top: 0;
     }
 
-    & label {
-        padding-left: 0px;
+    label {
+        padding-left: 0;
         font-weight: 400;
         margin-left: 28px;
         min-height: initial;
         line-height: 20px;
 
-        span::before {
+        span:before {
             border-width: 1px;
             border-style: solid;
             content: "";
@@ -105,15 +104,15 @@ textarea.form-control {
 // Checkbox only
 .checkbox {
 
-    & label {
-        input:checked ~ span::before {
+    label {
+        input:checked ~ span:before {
             @include glyph(checkmark);
             text-indent: 2px;
             line-height: 1em;
             padding-top: 2px;
         }
 
-        input:indeterminate ~ span::before {
+        input:indeterminate ~ span:before {
             text-indent: 2px;
             line-height: 12px;
             font-size: 17px;
@@ -126,13 +125,13 @@ textarea.form-control {
 // Radio only
 .radio {
 
-    & label {
-        span::before {
+    label {
+        span:before {
             border-radius: 100%;
         }
 
-        input:checked ~ span::before {
-            text-indent: 0px;
+        input:checked ~ span:before {
+            text-indent: 0;
             line-height: 6px;
             padding-top: 2px;
             font-size: 45px;
@@ -193,7 +192,7 @@ select {
 }
 
 select[multiple].form-control {
-    border: none;
+    border: 0;
 }
 
 
@@ -211,8 +210,7 @@ form {
     }
 }
 
-input.form-control,
-textarea.form-control {
+.form-control {
     @include box-shadow(none);
     @include transition(none);
     color: $color-type-primary;
@@ -220,10 +218,7 @@ textarea.form-control {
     border-color: $color-vivid-low;
 
     // Hint text color
-    &:-ms-input-placeholder         {color: $color-type-secondary;}
-    &::-webkit-input-placeholder    {color: $color-type-secondary;}
-    &:-moz-placeholder              {color: $color-type-secondary;}
-    &::-moz-placeholder             {color: $color-type-secondary;}
+    &::placeholder { color: $color-type-secondary; }
 
     &:hover {
         border-color: $color-vivid-mid;
@@ -244,8 +239,8 @@ textarea.form-control {
     }
 }
 
-input.form-control::-ms-clear,
-input.form-control::-ms-reveal {
+.form-control::-ms-clear,
+.form-control::-ms-reveal {
     color: $color-vivid-low;
 
     &:hover {
@@ -258,8 +253,8 @@ input.form-control::-ms-reveal {
 }
 
 .form-group {
-    label.disabled,
-    .form-group-label.disabled {
+    .disabled,
+    .form-group-.disabled {
         color: $color-type-disabled;
     }
 }
@@ -267,13 +262,13 @@ input.form-control::-ms-reveal {
 .checkbox,
 .radio {
 
-    & label {
+    label {
         input[type=checkbox],
         input[type=radio] {
             opacity: 0;
         }
 
-        span::before {
+        span:before {
             border-color: $color-vivid-mid;
         }
 
@@ -282,7 +277,7 @@ input.form-control::-ms-reveal {
                 color: $color-type-disabled;
             }
 
-            ~ span::before {
+            ~ span:before {
                 border-color: $color-neutral-low;
                 color: $color-type-disabled;
             }
@@ -292,26 +287,26 @@ input.form-control::-ms-reveal {
 
 .checkbox {
 
-    & label {
-        input:checked ~ span::before {
+    label {
+        input:checked ~ span:before {
             background-color: $color-accent-vivid-high;
             border-color: $color-accent-vivid-high;
             color: $color-vivid-high-alt;
         }
 
-        input:indeterminate ~ span::before {
+        input:indeterminate ~ span:before {
             border-color: $color-accent-vivid-high;
             color: $color-vivid-mid;
         }
     }
 
     &:hover {
-        span::before,
-        input:checked ~ span::before {
+        span:before,
+        input:checked ~ span:before {
             border-color: $color-vivid-high;
         }
 
-        input:indeterminate ~ span::before {
+        input:indeterminate ~ span:before {
             color: $color-vivid-high;
         }
     }
@@ -319,21 +314,21 @@ input.form-control::-ms-reveal {
 
 .radio {
 
-    & label {
-        input:checked ~ span::before {
+    label {
+        input:checked ~ span:before {
             border-color: $color-accent-vivid-high;
             color: $color-vivid-high;
         }
     }
 
     &:hover {
-        span::before,
-        input:checked ~ span::before {
+        span:before,
+        input:checked ~ span:before {
             border-color: $color-accent-vivid-high;
             color: $color-vivid-mid;
         }
 
-        input:disabled ~ span::before {
+        input:disabled ~ span:before {
             border-color: $color-neutral-low;
         }
     }
@@ -381,10 +376,8 @@ select {
 
 // Alt (on dark surface)
 // Currently Alt and on-img-dark are identical
-form.theme-alt,
-form .theme-alt,
-form.theme-on-img-dark,
-form .theme-on-img-dark {
+.theme-alt,
+.theme-on-img-dark {
 
     &,
     p,
@@ -392,21 +385,17 @@ form .theme-on-img-dark {
         color: $color-type-primary-alt;
     }
 
-    label.disabled,
-    .form-group-label.disabled {
+    .disabled,
+    .form-group-.disabled {
         color: $color-type-disabled-alt;
     }
 
-    input.form-control,
-    textarea.form-control {
+    .form-control {
         border-color: $color-vivid-low-alt;
         background-color: $color-vivid-mid;
         color: $color-type-primary-alt;
 
-        &:-ms-input-placeholder         {color: $color-type-secondary-alt;}
-        &::-webkit-input-placeholder    {color: $color-type-secondary-alt;}
-        &:-moz-placeholder              {color: $color-type-secondary-alt;}
-        &::-moz-placeholder             {color: $color-type-secondary-alt;}
+        &::placeholder { color: $color-type-secondary-alt; }
 
         &:hover {
             border-color: $color-vivid-mid-alt;
@@ -428,8 +417,8 @@ form .theme-on-img-dark {
     }
 
     .form-group {
-        label.disabled,
-        .form-group-label.disabled {
+        .disabled,
+        .form-group-.disabled {
             color: $color-type-disabled-alt;
         }
     }
@@ -437,8 +426,8 @@ form .theme-on-img-dark {
     .checkbox,
     .radio {
 
-        & label {
-            span::before {
+        label {
+            span:before {
                 border-color: $color-vivid-mid-alt;
             }
 
@@ -447,7 +436,7 @@ form .theme-on-img-dark {
                     color: $color-type-disabled-alt;
                 }
 
-                ~ span::before {
+                ~ span:before {
                     border-color: $color-neutral-low-alt;
                     color: $color-type-disabled-alt;
                 }
@@ -457,26 +446,26 @@ form .theme-on-img-dark {
 
     .checkbox {
 
-        & label {
-            input:checked ~ span::before {
+        label {
+            input:checked ~ span:before {
                 background-color: $color-accent-vivid-high;
                 border-color: $color-accent-vivid-high;
                 color: $color-vivid-high-alt;
             }
 
-            input:indeterminate ~ span::before {
+            input:indeterminate ~ span:before {
                 border-color: $color-accent-vivid-high;
                 color: $color-vivid-mid-alt;
             }
         }
 
         &:hover {
-            span::before,
-            input:checked ~ span::before {
+            span:before,
+            input:checked ~ span:before {
                 border-color: $color-vivid-high-alt;
             }
 
-            input:indeterminate ~ span::before {
+            input:indeterminate ~ span:before {
                 color: $color-vivid-high-alt;
             }
         }
@@ -484,21 +473,21 @@ form .theme-on-img-dark {
 
     .radio {
 
-        & label {
-            input:checked ~ span::before {
+        label {
+            input:checked ~ span:before {
                 border-color: $color-accent-vivid-high;
                 color: $color-vivid-high-alt;
             }
         }
 
         &:hover {
-            span::before,
-            input:checked ~ span::before {
+            span:before,
+            input:checked ~ span:before {
                 border-color: $color-accent-vivid-high;
                 color: $color-vivid-mid-alt;
             }
 
-            input:disabled ~ span::before {
+            input:disabled ~ span:before {
                 border-color: $color-neutral-low-alt;
             }
         }
@@ -561,10 +550,8 @@ form .theme-on-img-dark {
 }
 
 // ***** REVIEW WITH DESIGN *****
-form.theme-on-color,
-form .theme-on-color,
-form.theme-dark,
-form .theme-dark {
+.theme-on-color,
+.theme-dark {
 
     &,
     p,
@@ -572,20 +559,16 @@ form .theme-dark {
         color: $color-type-primary-alt;
     }
 
-    label.disabled,
-    .form-group-label.disabled {
+    .disabled,
+    .form-group-.disabled {
         color: $color-type-disabled-alt;
     }
 
-    input.form-control,
-    textarea.form-control {
+    .form-control {
         border-color: $color-vivid-high-alt;
         background-color: $color-vivid-low-alt;
 
-        &:-ms-input-placeholder         {color: $color-type-secondary;}
-        &::-webkit-input-placeholder    {color: $color-type-secondary;}
-        &:-moz-placeholder              {color: $color-type-secondary;}
-        &::-moz-placeholder             {color: $color-type-secondary;}
+        &::placeholder {color: $color-type-secondary;}
 
         &:hover {
             background-color: $color-vivid-mid-alt;
@@ -607,8 +590,8 @@ form .theme-dark {
     }
 
     .form-group {
-        label.disabled,
-        .form-group-label.disabled {
+        .disabled,
+        .form-group-.disabled {
             color: $color-type-disabled-alt;
         }
     }
@@ -616,8 +599,8 @@ form .theme-dark {
     .checkbox,
     .radio {
 
-        & label {
-            span::before {
+        label {
+            span:before {
                 border-color: $color-vivid-high-alt;
             }
 
@@ -626,7 +609,7 @@ form .theme-dark {
                     color: $color-type-disabled;
                 }
 
-                ~ span::before {
+                ~ span:before {
                     border-color: $color-neutral-low;
                     color: $color-type-disabled;
                 }
@@ -636,26 +619,26 @@ form .theme-dark {
 
     .checkbox {
 
-        & label {
-            input:checked ~ span::before {
+        label {
+            input:checked ~ span:before {
                 background-color: $color-vivid-high-alt;
                 border-color: rgba($color-accent-vivid-high, .4);
                 color: $color-accent-vivid-high;
             }
 
-            input:indeterminate ~ span::before {
+            input:indeterminate ~ span:before {
                 border-color: $color-vivid-high-alt;
                 color: $color-type-primary-alt;
             }
         }
 
         &:hover {
-            span::before,
-            input:checked ~ span::before {
+            span:before,
+            input:checked ~ span:before {
                 border-color: $color-vivid-high-alt;
             }
 
-            input:indeterminate ~ span::before {
+            input:indeterminate ~ span:before {
                 color: $color-vivid-high-alt;
             }
         }
@@ -663,21 +646,21 @@ form .theme-dark {
 
     .radio {
 
-        & label {
-            input:checked ~ span::before {
+        label {
+            input:checked ~ span:before {
                 border-color: $color-vivid-high-alt;
                 color: $color-type-primary-alt;
             }
         }
 
         &:hover {
-            span::before,
-            input:checked ~ span::before {
+            span:before,
+            input:checked ~ span:before {
                 border-color: $color-vivid-mid-alt;
                 color: $color-type-primary-alt;
             }
 
-            input:disabled ~ span::before {
+            input:disabled ~ span:before {
                 border-color: $color-neutral-low;
             }
         }
@@ -735,10 +718,8 @@ form .theme-dark {
 }
 
 // On light image
-form.theme-on-img-light,
-form .theme-on-img-light,
-form.theme-light,
-form .theme-light {
+.theme-on-img-light,
+.theme-light {
 
     // Combo Box Colors
     select {

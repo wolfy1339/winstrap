@@ -1,5 +1,5 @@
 .panel-clean {
-    border: none;
+    border: 0;
 
     .panel-heading,
     .panel-footer {
@@ -22,7 +22,7 @@
     }
 
     .panel-footer {
-        border: none;
+        border: 0;
     }
 
     .nav-pills > li > a {
@@ -40,7 +40,7 @@
 
     .nav-pills > li:first-child > a {
         padding-left: 0;
-        border-left: none;
+        border-left: 0;
     }
 
     .nav-pills > li.active > a {
@@ -51,8 +51,8 @@
 }
 
 .panel-line {
-    margin: 0 0 15px 0;
-    border: none;
+    margin: 0 0 15px;
+    border: 0;
     border-top: 1px solid $color-neutral-mid;
 
     .panel-heading,

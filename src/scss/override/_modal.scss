@@ -1,6 +1,6 @@
 .modal-content {
     margin-top: 20px;
-    padding: spacing(xs, -4) spacing(xs) spacing(xs, -4);
+    padding: spacing(xs, -4);
     box-shadow: none;
 
     .modal-header {
@@ -35,7 +35,7 @@
                 max-width: 50%; // IE8
                 max-width: calc(50% - 2px); // IE9+ (compensate button margins)
 
-                & + .btn {
+                + .btn {
                     margin-left: 0;
                 }
             }

@@ -6,7 +6,7 @@ $alert-glyph-base: 48px;
 // Override
 .alert {
     position: relative;
-    border: none;
+    border: 0;
     padding: spacing(xxs) spacing(xxs) spacing(xxs) spacing(xs, -4);
     min-height: $alert-glyph-base;
 
@@ -44,7 +44,7 @@ $alert-glyph-base: 48px;
     }
 
     &.with-glyph {
-        padding-left: spacing(md)
+        padding-left: spacing(md);
     }
 
     .alert-glyph {
@@ -52,7 +52,7 @@ $alert-glyph-base: 48px;
         top: spacing(xxs);
         left: spacing(xxs);
         width: $alert-glyph-base / 2;
-        height: $alert-glyph-base /2;
+        height: $alert-glyph-base / 2;
         font-size: $alert-glyph-base / 2;
     }
 

@@ -8,10 +8,10 @@ $popover-position: spacing(xxxs);
     @include box-shadow(none);
     @include type(t7, set-line-height);
 
-    &.top       { margin-top: -$popover-position; }
-    &.right     { margin-left: $popover-position; }
-    &.bottom    { margin-top: $popover-position; }
-    &.left      { margin-left: -$popover-position; }
+    &.top { margin-top: -$popover-position; }
+    &.right { margin-left: $popover-position; }
+    &.bottom { margin-top: $popover-position; }
+    &.left { margin-left: -$popover-position; }
 
     .arrow,
     .popover-title {

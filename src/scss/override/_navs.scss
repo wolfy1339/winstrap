@@ -2,8 +2,8 @@
 // Static resources
 //
 $pivot-horizontal-padding:                                                      12px;
-$pivot-hover-color:                                                             rgba($color-type-primary, 0.8);
-$pivot-hover-color-alt:                                                         rgba($color-type-primary-alt, 0.8);
+$pivot-hover-color:                                                             rgba($color-type-primary, .8);
+$pivot-hover-color-alt:                                                         rgba($color-type-primary-alt, .8);
 
 //
 // Navbar
@@ -19,7 +19,7 @@ $pivot-hover-color-alt:                                                         
             &,
             &:hover,
             &:focus {
-                border: none;
+                border: 0;
             }
         }
     }

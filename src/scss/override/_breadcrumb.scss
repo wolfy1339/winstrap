@@ -15,7 +15,7 @@
   }
 
   > li + li:before {
-    content: '\005c';
+    content: "\005c";
     display: inline-block;
     padding: 0 spacing(xxxs) 0 spacing(xxxs, -4);
     vertical-align: baseline;
@@ -37,7 +37,7 @@
     }
 
     &,
-    > li.active {
+    > .active {
       color: $color-type-primary;
     }
   }
@@ -57,7 +57,7 @@
     }
 
     &,
-    > li.active {
+    > .active {
       color: $color-type-secondary-alt;
     }
   }

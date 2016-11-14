@@ -8,7 +8,7 @@ $navbar-transition-out: .5s;
 // Navbar styles
 //
 .navbar, .navbar-form {
-    border: none;
+    border: 0;
 
     .glyph-chevron-down-2 {
         font-size: 6px;
@@ -16,7 +16,7 @@ $navbar-transition-out: .5s;
     }
 
     .glyph-hamburger {
-        font-size: 20px;
+        font-size: 20;
     }
 
     .navbar-toggle {
@@ -118,7 +118,7 @@ $navbar-transition-out: .5s;
         }
 
         > li > .dropdown-menu {
-            width: 240px;
+            width: 240;
             padding-top: 0;
             padding-bottom: spacing(xxxs);
         }
@@ -136,13 +136,13 @@ $navbar-transition-out: .5s;
     input.form-control {
         margin-bottom: 0;
         margin-top: 0;
-        border-right: none;
+        border-right: 0;
     }
 
     .btn.btn-default {
         margin: 0;
         border: 1px solid;
-        border-left: none;
+        border-left: 0;
         margin-left: -4px;
         min-width: initial;
         padding: spacing(n);
@@ -165,7 +165,7 @@ $navbar-transition-out: .5s;
 }
 
 .navbar-local {
-    box-shadow: 0px 1px 0px $color-dim-mid;
+    box-shadow: 0 1px 0 $color-dim-mid;
     
     .navbar-nav {
         .open .dropdown-menu {
@@ -278,7 +278,7 @@ $navbar-transition-out: .5s;
                 border-top: 1px solid $color-dim-mid;
                 
                 @media (min-width: $grid-float-breakpoint) {
-                    border-top: none;
+                    border-top: 0;
                 }
             }
             

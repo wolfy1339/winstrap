@@ -6,14 +6,14 @@
         height: 36px;
         padding: spacing(n) spacing(n) spacing(n) spacing(xxs);
         margin: spacing(n);
-        min-width: 80px;
+        min-width: 80;
 
         &:active {
-            box-shadow: none;
+            box-shadow: 0;
         }
 
         .caret {
-            border: none;
+            border: 0;
             width: auto;
             height: auto;
             line-height: 1;
@@ -29,7 +29,7 @@
     }
     .dropdown-menu {
         box-shadow: none;
-        border: none;
+        border: 0;
         width: 100%;
         padding: spacing(n);
         top: spacing(sm, -2px);
@@ -79,7 +79,7 @@
                 background-color: $color-neutral-low;
                 border-color: $color-vivid-high;
 
-                .caret{
+                .caret {
                     color: $color-vivid-high;
                 }
             }
@@ -98,7 +98,7 @@
                 background-color: $color-neutral-low;
                 border-color: $color-vivid-high;
 
-                .caret{
+                .caret {
                     color: $color-vivid-high;
                 }
             }
@@ -167,7 +167,7 @@
             }
         }
         &.open {
-            .btn-dropdown{
+            .btn-dropdown {
                 background-color: $color-neutral-mid-alt;
                 border-color: $color-vivid-high-alt;
 
@@ -251,7 +251,7 @@
                 }
                 &.active a,
                 a:hover,
-                a:focus  {
+                a:focus {
                     color: $color-vivid-high-alt;
                     background-color: $color-vivid-high;
 
