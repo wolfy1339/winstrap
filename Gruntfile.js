@@ -15,6 +15,7 @@ module.exports = function (grunt) {
 
     sass: {
         options: {
+          outputStyle: 'expanded',
           sourceMap: true,
           precision: 5,
           includePaths: [
