@@ -1,25 +1,26 @@
 // Spacer function
 @function spacing($size, $shim: 0) {
-    @return (map-get($spacer-sizes, $size) + $shim);
+  @return map-get($spacer-sizes, $size) + $shim;
 }
 
 // Spacer mixin
 @mixin spacer($prop: margin, $direction: vertical, $size: xxs) {
 
-    @if $direction == vertical {
-        #{$prop}-top:           spacing($size) !important;
-        #{$prop}-bottom:        spacing($size) !important;
+  @if $direction == vertical {
+    #{$prop}-top: spacing($size) !important;
+    #{$prop}-bottom: spacing($size) !important;
 
-    } @else if $direction == horizontal {
-        #{$prop}-left:          spacing($size) !important;
-        #{$prop}-right:         spacing($size) !important;
+  } @else if $direction == horizontal {
+    #{$prop}-left: spacing($size) !important;
+    #{$prop}-right: spacing($size) !important;
 
-    } @else if $direction == all {
-        #{$prop}:               spacing($size) !important;
+  } @else if $direction == all {
+    #{$prop}: spacing($size) !important;
 
-    } @else {
-        #{$prop}-#{$direction}: spacing($size) !important;
-    }
+  } @else {
+    #{$prop}-#{$direction}: spacing($size) !important;
+
+  }
 }
 
 // Spacer classes

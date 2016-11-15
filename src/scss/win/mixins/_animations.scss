@@ -1,24 +1,24 @@
-﻿// Cross-browser transition
+// Cross-browser transition
 @mixin transition($transitions...) {
-    transition: $transitions;
+  transition: $transitions;
 }
 
 // Cross-browser keyframes animation
-@mixin keyframes($animation-name) { 
-    @keyframes #{$animation-name} {
-        @content;
-    }
+@mixin keyframes($animation-name) {
+  @keyframes #{$animation-name} {
+    @content;
+  }
 }
 
 // Cross-browser animation
 @mixin animation($animation-values...) {
-    animation: $animation-values;
+  animation: $animation-values;
 }
 
 @mixin animation-delay($animation-values...) {
-    animation-delay: $animation-values;
+  animation-delay: $animation-values;
 }
 
 @mixin animation-timing-function($animation-values...) {
-    animation-timing-function: $animation-values;
+  animation-timing-function: $animation-values;
 }

@@ -1,31 +1,35 @@
 // Stacked alerts on top of the screen
 .alert-stack {
-    // Added by Bootstrap Affix when scrolling
-    &.affix {
-        top: 0; // position is fixed
-        width: 100%;
-        z-index: 1000;
+  // Added by Bootstrap Affix when scrolling
+  &.affix {
+    top: 0;
+
+    // position is fixed
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .alert {
+    margin: 0 0 1px;
+    padding-right: $grid-gutter-width / 2;
+
+    // space for the close glyph
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+
+    p {
+      @include type(t8);
+
+      margin-bottom: 0;
+      padding-top: 4px;
     }
+  }
 
-    .alert {
-        margin: 0 0 1px;
-        padding-right: ($grid-gutter-width / 2); // space for the close glyph
-        border-top: 0;
-        border-right: 0;
-        border-left: 0;
+  //
+  // Color
+  //
 
-        p {
-            @include type(t8);
-            margin-bottom: 0;
-            padding-top: 4px;
-        }
-    }
-
-    //
-    // Color
-    //
-
-    // ensure background is not transparent
-    background-color: $color-white;
-
+  // ensure background is not transparent
+  background-color: $color-white;
 }

@@ -1,5 +1,6 @@
-﻿.breadcrumb {
+.breadcrumb {
   margin: spacing(xs, -4) 0 spacing(xs, +1);
+
   @include type(t8);
 
   a {
@@ -9,9 +10,9 @@
       text-decoration: underline;
     }
   }
-  
+
   li {
-      margin: 0;
+    margin: 0;
   }
 
   > li + li:before {
@@ -24,7 +25,6 @@
   &,
   &.theme-default,
   &.theme-light {
-
     a {
       &,
       &:hover {
@@ -44,7 +44,6 @@
 
   &.theme-alt,
   &.theme-dark {
-
     a {
       &,
       &:hover {
