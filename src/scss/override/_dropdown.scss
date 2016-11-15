@@ -21,7 +21,7 @@
             padding: spacing(xxs) spacing(xxs, -1);
             margin-left: spacing(xxxs);
 
-            &::before {
+            &:before {
                 @include glyph(chevron-down-2);
                 vertical-align: bottom;
             }

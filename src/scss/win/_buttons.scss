@@ -51,7 +51,7 @@ a.link-on-dark {
     }
 
     // Indicator circle
-    &::before {
+    &:before {
         content: "";
         position: absolute;
         width: $toggle-switch-indicator-size;
@@ -90,7 +90,7 @@ a.link-on-dark {
         background-color: transparent;
         border-color: $color-vivid-mid;
 
-        &::before {
+        &:before {
             background-color: $color-vivid-mid;
         }
 
@@ -101,7 +101,7 @@ a.link-on-dark {
         &:hover {
             border-color: $color-vivid-high;
 
-            &::before {
+            &:before {
                 background-color: $color-vivid-high;
             }
         }
@@ -110,7 +110,7 @@ a.link-on-dark {
             background-color: $color-accent;
             border-color: transparent;
 
-            &::before {
+            &:before {
                 background-color: $color-bg-light-vivid-high;
             }
 
@@ -122,7 +122,7 @@ a.link-on-dark {
         &:disabled {
             border-color: $color-neutral-low;
 
-            &::before {
+            &:before {
                 background-color: $color-neutral-low;
             }
 
@@ -142,7 +142,7 @@ a.link-on-dark {
         background-color: transparent;
         border-color: $color-vivid-mid-alt;
 
-        &::before {
+        &:before {
             background-color: $color-vivid-mid-alt;
         }
 
@@ -162,7 +162,7 @@ a.link-on-dark {
             background-color: $color-accent-vivid-high;
             border-color: transparent;
 
-            &::before {
+            &:before {
                 background-color: $color-bg-light-vivid-high;
             }
 
@@ -174,7 +174,7 @@ a.link-on-dark {
         &:disabled {
             border-color: $color-neutral-low-alt;
 
-            &::before {
+            &:before {
                 background-color: $color-neutral-low-alt;
             }
 
@@ -195,7 +195,7 @@ a.link-on-dark {
         background-color: transparent;
         border-color: $color-vivid-mid;
 
-        &::before {
+        &:before {
             background-color: $color-vivid-mid;
         }
 
@@ -206,7 +206,7 @@ a.link-on-dark {
         &:hover {
             border-color: $color-vivid-high;
 
-            &::before {
+            &:before {
                 background-color: $color-vivid-high;
             }
         }
@@ -215,7 +215,7 @@ a.link-on-dark {
             background-color: $color-neutral-high;
             border-color: $color-vivid-high;
 
-            &::before {
+            &:before {
                 background-color: $color-bg-dark-vivid-high;
             }
 
@@ -223,7 +223,7 @@ a.link-on-dark {
                 background-color: lighten($color-neutral-high, 10%);
                 border-color: lighten($color-vivid-high, 10%);
 
-                &::before {
+                &:before {
                     background-color: lighten($color-bg-dark-vivid-high, 10%);
                 }
             }
@@ -232,7 +232,7 @@ a.link-on-dark {
         &:disabled {
             border-color: $color-neutral-low;
 
-            &::before {
+            &:before {
                 background-color: $color-neutral-low;
             }
 
@@ -254,7 +254,7 @@ a.link-on-dark {
         background-color: transparent;
         border-color: $color-vivid-mid-alt;
 
-        &::before {
+        &:before {
             background-color: $color-vivid-mid-alt;
         }
 
@@ -265,7 +265,7 @@ a.link-on-dark {
         &:hover {
             border-color: $color-vivid-high-alt;
 
-            &::before {
+            &:before {
                 background-color: $color-vivid-high-alt;
             }
         }
@@ -274,7 +274,7 @@ a.link-on-dark {
             background-color: $color-neutral-high-alt;
             border-color: $color-vivid-high-alt;
 
-            &::before {
+            &:before {
                 background-color: $color-bg-light-vivid-high;
             }
 
@@ -282,7 +282,7 @@ a.link-on-dark {
                 background-color: darken($color-neutral-high-alt, 10%);
                 border-color: darken($color-vivid-high-alt, 10%);
 
-                &::before {
+                &:before {
                     background-color: darken($color-bg-light-vivid-high, 10%);
                 }
             }
@@ -291,7 +291,7 @@ a.link-on-dark {
         &:disabled {
             border-color: $color-neutral-low-alt;
 
-            &::before {
+            &:before {
                 background-color: $color-neutral-low-alt;
             }
 

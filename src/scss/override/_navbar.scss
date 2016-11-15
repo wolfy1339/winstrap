@@ -147,7 +147,7 @@ $navbar-transition-out: .5s;
         min-width: initial;
         padding: spacing(n);
 
-        &::before {
+        &:before {
             @include glyph(magnifier);
             padding: spacing(xxxs, 1) spacing(xxxs, 1) spacing(xxxs, 2);
             font-size: 15px;

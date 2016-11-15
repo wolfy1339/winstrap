@@ -89,7 +89,7 @@ $fonts: (
     t6: (
         size-sm:                16px,
         size-md:                18px,
-        size-xxl:               20,
+        size-xxl:               20px,
         line-height-sm:         20px,
         line-height-md:         24px,
         line-height-xxl:        24px,
@@ -132,7 +132,7 @@ $fonts: (
         letter-spacing:         normal
     ),
     t9: (
-        size-sm:                10,
+        size-sm:                10px,
         size-md:                11px,
         size-xxl:               13px,
         line-height-sm:         12px,
@@ -186,7 +186,7 @@ $fonts-spacing: (
         type-size:      "t6",
         space-sm:       39px 0 1px,
         space-md:       37px 0 3px,
-        space-xxl:      40 0 4px
+        space-xxl:      40px 0 4px
     ),
     sh1: (
         type-size:      "t3",
@@ -198,7 +198,7 @@ $fonts-spacing: (
         type-size:      "t4",
         space-sm:       8px 0 4px,
         space-md:       4px 0 8px,
-        space-xxl:      10 0 2px
+        space-xxl:      10px 0 2px
     ),
     sh3: (
         type-size:      "t5",

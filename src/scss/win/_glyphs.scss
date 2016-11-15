@@ -1,20 +1,18 @@
 ﻿// Generic glyph placeholder
 .glyph {
     display: inline-block;
-    width: 1em; height: 1em;
+    width: 1em;
+    height: 1em;
     vertical-align: middle;
     overflow: hidden;
-
-    &:before {
-        display: block;
-        width: 1em; height: 1em;
-        font-family: "winjs-symbols";
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
+    display: block;
+    width: 1em; height: 1em;
+    font-family: "winjs-symbols";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 // List of glyphs with their associated UTF-8 private spaces and original names in WinJS Symbols
