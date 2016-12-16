@@ -1,4 +1,4 @@
-﻿// Generic glyph placeholder
+// Generic glyph placeholder
 .glyph {
     display: inline-block;
     width: 1em; height: 1em;
@@ -64,11 +64,11 @@ $glyphs: (
         original-name:  "ChevronFlipUpLegacy"
     ),
     chevron-down-2: (
-        unicode:        \e0e5",
+        unicode:        \e0e5,
         original-name:  "chevronFlipDownLegacy"
     ),
     checkmark-2: (
-        unicode:        \e0e7",
+        unicode:        \e0e7,
         original-name:  "checkmarkMenuLegacy"
     ),
     star-outline: (
@@ -80,7 +80,7 @@ $glyphs: (
         original-name:  "chevronRightSmLegacy"
     ),
     chevron-left-2: (
-        unicode:        \e26c",
+        unicode:        \e26c,
         original-name:  "chevronLeftSmLegacy"
     ),
     previous: (
@@ -132,7 +132,7 @@ $glyphs: (
         original-name:  "cancelLegacy"
     ),
     accept: (
-        unicode:        "\e10b",
+        unicode:        \e10b,
         original-name:  "acceptLegacy"
     ),
     more: (
@@ -340,719 +340,719 @@ $glyphs: (
         original-name:  "viewAllLegacy"
     ),
     map-pin: (
-        unicode:        "\E139",
+        unicode:        \e139,
         original-name:  "mapPinLegacy"
     ),
     phone: (
-        unicode:        "\E13A",
+        unicode:        \e13A,
         original-name:  "phoneLegacy"
     ),
     video-chat: (
-        unicode:        "\E13B",
+        unicode:        \e13B,
         original-name:  "videoChatLegacy"
     ),
     switch: (
-        unicode:        "\E13C",
+        unicode:        \e13C,
         original-name:  "switchLegacy"
     ),
     contact: (
-        unicode:        "\E13D",
+        unicode:        \e13D,
         original-name:  "contactLegacy"
     ),
     rename: (
-        unicode:        "\E13E",
+        unicode:        \e13E,
         original-name:  "renameLegacy"
     ),
     pin: (
-        unicode:        "\E141",
+        unicode:        \e141,
         original-name:  "pinLegacy"
     ),
     music-info: (
-        unicode:        "\E142",
+        unicode:        \e142,
         original-name:  "musicInfoLegacy"
     ),
     go: (
-        unicode:        "\E143",
+        unicode:        \e143,
         original-name:  "goLegacy"
     ),
     go-mirrored: (
-        unicode:        "\E1AA",
+        unicode:        \e1AA,
         original-name:  "goLegacyMirrored"
     ),
     keyboard: (
-        unicode:        "\E144",
+        unicode:        \e144,
         original-name:  "keyBoardLegacy"
     ),
     dock-left: (
-        unicode:        "\E145",
+        unicode:        \e145,
         original-name:  "dockLeftLegacy"
     ),
     dock-left-mirrored: (
-        unicode:        "\E1AB",
+        unicode:        \e1AB,
         original-name:  "dockLeftLegacyMirrored"
     ),
     dock-right: (
-        unicode:        "\E146",
+        unicode:        \e146,
         original-name:  "dockRightLegacy"
     ),
     dock-right-mirrored: (
-        unicode:        "\E1AC",
+        unicode:        \e1AC,
         original-name:  "dockRightLegacyMIrrored"
     ),
     dock-bottom: (
-        unicode:        "\E147",
+        unicode:        \e147,
         original-name:  "dockBottomLegacy"
     ),
     remote: (
-        unicode:        "\E148",
+        unicode:        \e148,
         original-name:  "remoteLegacy"
     ),
     refresh: (
-        unicode:        "\E149",
+        unicode:        \e149,
         original-name:  "refreshLegacy"
     ),
     rotate: (
-        unicode:        "\E14A",
+        unicode:        \e14A,
         original-name:  "rotateLegacy"
     ),
     shuffle: (
-        unicode:        "\E14B",
+        unicode:        \e14B,
         original-name:  "shuffleLegacy"
     ),
     list: (
-        unicode:        "\E14C",
+        unicode:        \e14C,
         original-name:  "listLegacy"
     ),
     list-mirrored: (
-        unicode:        "\E175",
+        unicode:        \e175,
         original-name:  "listLegacyMirrored"
     ),
     shop: (
-        unicode:        "\E14D",
+        unicode:        \e14D,
         original-name:  "shopLegacy"
     ),
     select-all: (
-        unicode:        "\E14E",
+        unicode:        \e14E,
         original-name:  "selectAllLegacy"
     ),
     orientation: (
-        unicode:        "\E14F",
+        unicode:        \e14F,
         original-name:  "orientationLegacy"
     ),
     import: (
-        unicode:        "\E150",
+        unicode:        \e150,
         original-name:  "importLegacy"
     ),
     import-mirrored: (
-        unicode:        "\E1AD",
+        unicode:        \e1AD,
         original-name:  "importLegacyMirrored"
     ),
     import-all: (
-        unicode:        "\E151",
+        unicode:        \e151,
         original-name:  "importAllLegacy"
     ),
     import-all-mirrored: (
-        unicode:        "\E1AE",
+        unicode:        \e1AE,
         original-name:  "importAllLegacyMirrored"
     ),
     browse-photos: (
-        unicode:        "\E155",
+        unicode:        \e155,
         original-name:  "browsePhotosLegacy"
     ),
     webcam: (
-        unicode:        "\E156",
+        unicode:        \e156,
         original-name:  "webcamLegacy"
     ),
     picture: (
-        unicode:        "\E158",
+        unicode:        \e158,
         original-name:  "pictureLegacy"
     ),
     save-local: (
-        unicode:        "\E159",
+        unicode:        \e159,
         original-name:  "saveLocalLegacy"
     ),
     caption: (
-        unicode:        "\E15A",
+        unicode:        \e15A,
         original-name:  "captionLegacy"
     ),
     stop: (
-        unicode:        "\E15B",
+        unicode:        \e15B,
         original-name:  "stopLegacy"
     ),
     show-results: (
-        unicode:        "\E15C",
+        unicode:        \e15C,
         original-name:  "showResultsLegacy"
     ),
     show-results-mirrored: (
-        unicode:        "\E1F1",
+        unicode:        \e1F1,
         original-name:  "showResultsLegacyMirrored"
     ),
     volume: (
-        unicode:        "\E15D",
+        unicode:        \e15D,
         original-name:  "volumeLegacy"
     ),
     repair: (
-        unicode:        "\E15E",
+        unicode:        \e15E,
         original-name:  "repairLegacy"
     ),
     message: (
-        unicode:        "\E15F",
+        unicode:        \e15F,
         original-name:  "messageLegacy"
     ),
     page-outline: (
-        unicode:        "\E160",
+        unicode:        \e160,
         original-name:  "pageLegacy"
     ),
     calendar-day: (
-        unicode:        "\E161",
+        unicode:        \e161,
         original-name:  "calendarDayLegacy"
     ),
     calendar-week: (
-        unicode:        "\E162",
+        unicode:        \e162,
         original-name:  "calendarWeekLegacy"
     ),
     calendar: (
-        unicode:        "\E163",
+        unicode:        \e163,
         original-name:  "calendarLegacy"
     ),
     calendar-mirrored: (
-        unicode:        "\E1DC",
+        unicode:        \e1DC,
         original-name:  "calendarLegacyMirrored"
     ),
     characters: (
-        unicode:        "\E164",
+        unicode:        \e164,
         original-name:  "charactersLegacy"
     ),
     mail-reply-all: (
-        unicode:        "\E165",
+        unicode:        \e165,
         original-name:  "mailReplyAllLegacy"
     ),
     mail-reply-all-mirrored: (
-        unicode:        "\E1F2",
+        unicode:        \e1F2,
         original-name:  "mailReplyAllLegacyMirrored"
     ),
     mail-read: (
-        unicode:        "\E166",
+        unicode:        \e166,
         original-name:  "readLegacy"
     ),
     link: (
-        unicode:        "\E167",
+        unicode:        \e167,
         original-name:  "linkLegacy"
     ),
     accounts: (
-        unicode:        "\E168",
+        unicode:        \e168,
         original-name:  "accountsLegacy"
     ),
     show-bcc: (
-        unicode:        "\E169",
+        unicode:        \e169,
         original-name:  "showBccLegacy"
     ),
     hide-bcc: (
-        unicode:        "\E16A",
+        unicode:        \e16A,
         original-name:  "hideBccLegacy"
     ),
     cut: (
-        unicode:        "\E16B",
+        unicode:        \e16B,
         original-name:  "cutLegacy"
     ),
     attach: (
-        unicode:        "\E16C",
+        unicode:        \e16C,
         original-name:  "attachLegacy"
     ),
     paste: (
-        unicode:        "\E16D",
+        unicode:        \e16D,
         original-name:  "pasteLegacy"
     ),
     filter: (
-        unicode:        "\E16E",
+        unicode:        \e16E,
         original-name:  "filterLegacy"
     ),
     copy: (
-        unicode:        "\E16F",
+        unicode:        \e16F,
         original-name:  "copyLegacy"
     ),
     emoji-2: (
-        unicode:        "\E170",
+        unicode:        \e170,
         original-name:  "emoji2Legacy"
     ),
     important: (
-        unicode:        "\E171",
+        unicode:        \e171,
         original-name:  "importantLegacy"
     ),
     mail-reply: (
-        unicode:        "\E172",
+        unicode:        \e172,
         original-name:  "mailReplyLegacy"
     ),
     mail-reply-mirrored: (
-        unicode:        "\E1AF",
+        unicode:        \e1AF,
         original-name:  "mailReplyLegacyMirrored"
     ),
     slideshow: (
-        unicode:        "\E173",
+        unicode:        \e173,
         original-name:  "slideshowLegacy"
     ),
     sort: (
-        unicode:        "\E174",
+        unicode:        \e174,
         original-name:  "sortLegacy"
     ),
     manage: (
-        unicode:        "\E178",
+        unicode:        \e178,
         original-name:  "manageLegacy"
     ),
     all-apps: (
-        unicode:        "\E179",
+        unicode:        \e179,
         original-name:  "allAppsLegacy"
     ),
     all-apps-mirrored: (
-        unicode:        "\E1EC",
+        unicode:        \e1EC,
         original-name:  "allAppsLegacyMirrored"
     ),
     disconnect-drive: (
-        unicode:        "\E17A",
+        unicode:        \e17A,
         original-name:  "disconnectDriveLegacy"
     ),
     map-drive: (
-        unicode:        "\E17B",
+        unicode:        \e17B,
         original-name:  "mapDriveLegacy"
     ),
     new-window: (
-        unicode:        "\E17C",
+        unicode:        \e17C,
         original-name:  "newWindowLegacy"
     ),
     open-with: (
-        unicode:        "\E17D",
+        unicode:        \e17D,
         original-name:  "openWithLegacy"
     ),
     open-with-mirrored: (
-        unicode:        "\E1ED",
+        unicode:        \e1ED,
         original-name:  "openWithLegacyMirrored"
     ),
     contact-presence: (
-        unicode:        "\E181",
+        unicode:        \e181,
         original-name:  "contactPresenceLegacy"
     ),
     priority: (
-        unicode:        "\E182",
+        unicode:        \e182,
         original-name:  "priorityLegacy"
     ),
     upload-2: (
-        unicode:        "\E183",
+        unicode:        \e183,
         original-name:  "uploadSkyDriveLegacy"
     ),
     go-to-today: (
-        unicode:        "\E184",
+        unicode:        \e184,
         original-name:  "gotoTodayLegacy"
     ),
     font: (
-        unicode:        "\E185",
+        unicode:        \e185,
         original-name:  "fontLegacy"
     ),
     font-color: (
-        unicode:        "\E186",
+        unicode:        \e186,
         original-name:  "fontColorLegacy"
     ),
     contact-2: (
-        unicode:        "\E187",
+        unicode:        \e187,
         original-name:  "contact2Legacy"
     ),
     folder-fill: (
-        unicode:        "\E188",
+        unicode:        \e188,
         original-name:  "folderLegacy"
     ),
     audio: (
-        unicode:        "\E189",
+        unicode:        \e189,
         original-name:  "audioLegacy"
     ),
     placeholder: (
-        unicode:        "\E18A",
+        unicode:        \e18A,
         original-name:  "placeholderLegacy"
     ),
     view: (
-        unicode:        "\E18B",
+        unicode:        \e18B,
         original-name:  "viewLegacy"
     ),
     set-lockscreen: (
-        unicode:        "\E18C",
+        unicode:        \e18C,
         original-name:  "setlockScreenLegacy"
     ),
     set-tile: (
-        unicode:        "\E18D",
+        unicode:        \e18D,
         original-name:  "setTileLegacy"
     ),
     cc: (
-        unicode:        "\E190",
+        unicode:        \e190,
         original-name:  "ccLegacy"
     ),
     stop-slideshow: (
-        unicode:        "\E191",
+        unicode:        \e191,
         original-name:  "stopSlideshowLegacy"
     ),
     permissions: (
-        unicode:        "\E192",
+        unicode:        \e192,
         original-name:  "permissionsLegacy"
     ),
     highlight: (
-        unicode:        "\E193",
+        unicode:        \e193,
         original-name:  "highlightLegacy"
     ),
     disable-updates: (
-        unicode:        "\E194",
+        unicode:        \e194,
         original-name:  "disableUpdatesLegacy"
     ),
     unfavorite: (
-        unicode:        "\E195",
+        unicode:        \e195,
         original-name:  "unfavoriteLegacy"
     ),
     unpin: (
-        unicode:        "\E196",
+        unicode:        \e196,
         original-name:  "unpinLegacy"
     ),
     open-local: (
-        unicode:        "\E197",
+        unicode:        \e197,
         original-name:  "openLocalLegacy"
     ),
     mute: (
-        unicode:        "\E198",
+        unicode:        \e198,
         original-name:  "muteLegacy"
     ),
     italic: (
-        unicode:        "\E199",
+        unicode:        \e199,
         original-name:  "italicLegacy"
     ),
     underline: (
-        unicode:        "\E19A",
+        unicode:        \e19A,
         original-name:  "underlineLegacy"
     ),
     bold: (
-        unicode:        "\E19B",
+        unicode:        \e19B,
         original-name:  "boldLegacy"
     ),
     move-to-folder: (
-        unicode:        "\E19C",
+        unicode:        \e19C,
         original-name:  "moveToFolderLegacy"
     ),
     like-dislike: (
-        unicode:        "\E19D",
+        unicode:        \e19D,
         original-name:  "likeDislikeLegacy"
     ),
     dislike: (
-        unicode:        "\E19E",
+        unicode:        \e19E,
         original-name:  "dislikeLegacy"
     ),
     like: (
-        unicode:        "\E19F",
+        unicode:        \e19F,
         original-name:  "likeLegacy"
     ),
     align-right: (
-        unicode:        "\E1A0",
+        unicode:        \e1A0,
         original-name:  "alignRightLegacy"
     ),
     align-center: (
-        unicode:        "\E1A1",
+        unicode:        \e1A1,
         original-name:  "alignCenterLegacy"
     ),
     align-left: (
-        unicode:        "\E1A2",
+        unicode:        \e1A2,
         original-name:  "alignLeftLegacy"
     ),
     magnifier-3: (
-        unicode:        "\E1A3",
+        unicode:        \e1A3,
         original-name:  "zoomLegacy"
     ),
     zoom-out: (
-        unicode:        "\E1A4",
+        unicode:        \e1A4,
         original-name:  "zoomOutLegacy"
     ),
     open-file: (
-        unicode:        "\E1A5",
+        unicode:        \e1A5,
         original-name:  "openFileLegacy"
     ),
     other-user: (
-        unicode:        "\E1A6",
+        unicode:        \e1A6,
         original-name:  "otherUserLegacy"
     ),
     admin: (
-        unicode:        "\E1A7",
+        unicode:        \e1A7,
         original-name:  "adminLegacy"
     ),
     street: (
-        unicode:        "\E1C3",
+        unicode:        \e1C3,
         original-name:  "streetLegacy"
     ),
     map: (
-        unicode:        "\E1C4",
+        unicode:        \e1C4,
         original-name:  "mapLegacy"
     ),
     clear-selection: (
-        unicode:        "\E1C5",
+        unicode:        \e1C5,
         original-name:  "clearSelectionLegacy"
     ),
     clear-selection-mirrored: (
-        unicode:        "\E1F4",
+        unicode:        \e1F4,
         original-name:  "clearSelectionLegacyMirrored"
     ),
     font-decrease: (
-        unicode:        "\E1C6",
+        unicode:        \e1C6,
         original-name:  "fontDecreaseLegacy"
     ),
     font-increase: (
-        unicode:        "\E1C7",
+        unicode:        \e1C7,
         original-name:  "fontIncreaseLegacy"
     ),
     font-size: (
-        unicode:        "\E1C8",
+        unicode:        \e1C8,
         original-name:  "fontSizeLegacy"
     ),
     cellphone: (
-        unicode:        "\E1C9",
+        unicode:        \e1C9,
         original-name:  "cellPhoneLegacy"
     ),
     reshare: (
-        unicode:        "\E1CA",
+        unicode:        \e1CA,
         original-name:  "reshareLegacy"
     ),
     tag: (
-        unicode:        "\E1CB",
+        unicode:        \e1CB,
         original-name:  "tagLegacy"
     ),
     repeat-once: (
-        unicode:        "\E1CC",
+        unicode:        \e1CC,
         original-name:  "repeatOneLegacy"
     ),
     repeat-all: (
-        unicode:        "\E1CD",
+        unicode:        \e1CD,
         original-name:  "repeatAllLegacy"
     ),
     star-outline-2: (
-        unicode:        "\E1CE",
+        unicode:        \e1CE,
         original-name:  "outlineStarLegacy"
     ),
     star-2: (
-        unicode:        "\E1CF",
+        unicode:        \e1CF,
         original-name:  "solidStarLegacy"
     ),
     calculator: (
-        unicode:        "\E1D0",
+        unicode:        \e1D0,
         original-name:  "calculatorLegacy"
     ),
     directions: (
-        unicode:        "\E1D1",
+        unicode:        \e1D1,
         original-name:  "directionsLegacy"
     ),
     location: (
-        unicode:        "\E1D2",
+        unicode:        \e1D2,
         original-name:  "locationLegacy"
     ),
     library: (
-        unicode:        "\E1D3",
+        unicode:        \e1D3,
         original-name:  "libraryLegacy"
     ),
     phonebook: (
-        unicode:        "\E1D4",
+        unicode:        \e1D4,
         original-name:  "phoneBookLegacy"
     ),
     memo: (
-        unicode:        "\E1D5",
+        unicode:        \e1D5,
         original-name:  "memoLegacy"
     ),
     microphone: (
-        unicode:        "\E1D6",
+        unicode:        \e1D6,
         original-name:  "microphoneLegacy"
     ),
     post-update: (
-        unicode:        "\E1D7",
+        unicode:        \e1D7,
         original-name:  "postUpdateLegacy"
     ),
     back-to-window: (
-        unicode:        "\E1D8",
+        unicode:        \e1D8,
         original-name:  "backToWindowLegacy"
     ),
     fullscreen: (
-        unicode:        "\E1D9",
+        unicode:        \e1D9,
         original-name:  "fullScreenLegacy"
     ),
     new-folder: (
-        unicode:        "\E1DA",
+        unicode:        \e1DA,
         original-name:  "newFolderLegacy"
     ),
     calendar-reply: (
-        unicode:        "\E1DB",
+        unicode:        \e1DB,
         original-name:  "calendarReplyLegacy"
     ),
     unsync-folder: (
-        unicode:        "\E1DD",
+        unicode:        \e1DD,
         original-name:  "unsyncFolderLegacy"
     ),
     report-hacked: (
-        unicode:        "\E1DE",
+        unicode:        \e1DE,
         original-name:  "reportHackedLegacy"
     ),
     sync-folder: (
-        unicode:        "\E1DF",
+        unicode:        \e1DF,
         original-name:  "syncFolderLegacy"
     ),
     block-contact: (
-        unicode:        "\E1E0",
+        unicode:        \e1E0,
         original-name:  "blockContactLegacy"
     ),
     switch-apps: (
-        unicode:        "\E1E1",
+        unicode:        \e1E1,
         original-name:  "switchAppsLegacy"
     ),
     add-friend: (
-        unicode:        "\E1E2",
+        unicode:        \e1E2,
         original-name:  "addFriendLegacy"
     ),
     touch-pointer: (
-        unicode:        "\E1E3",
+        unicode:        \e1E3,
         original-name:  "touchPointerLegacy"
     ),
     go-to-start: (
-        unicode:        "\E1E4",
+        unicode:        \e1E4,
         original-name:  "goToStartLegacy"
     ),
     zero-bar: (
-        unicode:        "\E1E5",
+        unicode:        \e1E5,
         original-name:  "zeroBarsLegacy"
     ),
     one-bar: (
-        unicode:        "\E1E6",
+        unicode:        \e1E6,
         original-name:  "oneBarLegacy"
     ),
     two-bars: (
-        unicode:        "\E1E7",
+        unicode:        \e1E7,
         original-name:  "twoBarsLegacy"
     ),
     three-bars: (
-        unicode:        "\E1E8",
+        unicode:        \e1E8,
         original-name:  "threeBarsLegacy"
     ),
     four-bars: (
-        unicode:        "\E1E9",
+        unicode:        \e1E9,
         original-name:  "fourBarsLegacy"
     ),
     scan: (
-        unicode:        "\E294",
+        unicode:        \e294,
         original-name:  "scanLegacy"
     ),
     preview: (
-        unicode:        "\E295",
+        unicode:        \e295,
         original-name:  "previewLegacy"
     ),
     hamburger: (
-        unicode:        "\E700",
+        unicode:        \e700,
         original-name:  "globalNavButton"
     ),
     checkbox-composite: (
-        unicode:        "\E73A",
+        unicode:        \e73A,
         original-name:  "checkboxComposite"
     ),
     checkbox-indeterminate: (
-        unicode:        "\E73C",
+        unicode:        \e73C,
         original-name:  "checkboxIndeterminate"
     ),
     erase-tool: (
-        unicode:        "\E75C",
+        unicode:        \e75C,
         original-name:  "eraseTool"
     ),
     warning: (
-        unicode:        "\E7BA",
+        unicode:        \e7BA,
         original-name:  "warning"
     ),
     shopping-cart: (
-        unicode:        "\E7BF",
+        unicode:        \e7BF,
         original-name:  "shoppingCart"
     ),
     flag-2: (
-        unicode:        "\E7C1",
+        unicode:        \e7C1,
         original-name:  "flag2"
     ),
     folder-open: (
-        unicode:        "\E838",
+        unicode:        \e838,
         original-name:  "folderOpen"
     ),
     folder: (
-        unicode:        "\E8B7",
+        unicode:        \e8B7,
         original-name:  "folder"
     ),
     completed: (
-        unicode:        "\E930",
+        unicode:        \e930,
         original-name:  "completed"
     ),
     music-album: (
-        unicode:        "\E93C",
+        unicode:        \e93C,
         original-name:  "musicAlbum"
     ),
     info: (
-        unicode:        "\E946",
+        unicode:        \e946,
         original-name:  "info"
     ),
     devices: (
-        unicode:        "\EA6C",
+        unicode:        \eA6C,
         original-name:  "devices3"
     ),
     expand: (
-        unicode:        "\ECC8",
+        unicode:        \eCC8,
         original-name:  "expand"
     ),
     collapse: (
-        unicode:        "\ECC9",
+        unicode:        \eCC9,
         original-name:  "collapse"
     ),
     radio-btn-off: (
-        unicode:        "\ECCA",
+        unicode:        \eCCA,
         original-name:  "radioBtnOff"
     ),
     radio-btn-on: (
-        unicode:        "\ECCB",
+        unicode:        \eCCB,
         original-name:  "radioBtnOn"
     ),
     radio-bullet: (
-        unicode:        "\ECCC",
+        unicode:        \eCCC,
         original-name:  "radioBullet2"
     ),
     media-browse: (
-        unicode:        "\ECCD",
+        unicode:        \eCCD,
         original-name:  "mediaBrowse"
     ),
     miracast-small: (
-        unicode:        "\EC15",
+        unicode:        \eC15,
         original-name:  "miracastLogoSmall"
     ),
     miracast-large: (
-        unicode:        "\EC16",
+        unicode:        \eC16,
         original-name:  "miracastLogoLarge"
     ),
     playback-rate-1x: (
-        unicode:        "\EC57",
+        unicode:        \eC57,
         original-name:  "playbackRate1x"
     ),
     playback-rate-other: (
-        unicode:        "\EC58",
+        unicode:        \eC58,
         original-name:  "playbackRateOther"
     ),
     subscription-add: (
-        unicode:        "\ED0E",
+        unicode:        \eD0E,
         original-name:  "subscriptionAdd"
     ),
     subscription-add-mirrored: (
-        unicode:        "\ED0E",
+        unicode:        \eD0E,
         original-name:  "subscriptionAddMirrored"
     ),
     subscriptions: (
-        unicode:        "\ED11",
+        unicode:        \eD11,
         original-name:  "subscriptions"
     ),
     subscriptions-mirrored: (
-        unicode:        "\ED12",
+        unicode:        \eD12,
         original-name:  "subscriptionsMirrored"
     ),
     folder-horizontal-open: (
-        unicode:        "\ED25",
+        unicode:        \eD25,
         original-name:  "openFolderHorizontal"
     ),
     folder-horizontal: (
-        unicode:        "\F12B",
+        unicode:        \f12B,
         original-name:  "folderHorizontal"
     )
 );
